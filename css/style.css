@@ -1,0 +1,110 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #f8f8f8;
+}
+h1::after{
+    content: "\2936" ;
+    rotate: 320deg;
+    position: relative;
+    top: -20px;
+  }
+h1::before {
+    content: "\2937" ;
+    rotate: 40deg;
+    position: relative;
+    top: -20px;
+  }
+
+
+  
+.boldtit {
+  color: rgb(64 137 109);
+  letter-spacing: 3px;
+}
+
+.search-input {
+  width: 50%;
+  padding: 15px 30px;
+  border: 0;
+  border-radius: 10px;
+}
+
+.page-button {
+  width: 15%;
+  background-color: rgb(200 231 118);
+  border: 0;
+  border-radius: 10px;
+}
+.getStartButton {
+    width: 27%;
+    margin-left: 2%;
+}
+
+.roundedcard{
+    border-radius: 25px;
+}
+.roundedicon{
+    border-radius: 15px;
+}
+.letterSpace{
+    letter-spacing: 2px;
+}
+.lineHeight{
+    font-size: 12px;
+}
+
+.cardBody{
+    font-size: 20px;
+}
+
+.BestSeller{
+    font-style: italic;
+    color: rgb(231, 192, 83);
+    background-color: palegoldenrod;
+}
+
+.my-muted-text{
+    color: rgb(137 137 137 / 75%);
+}
+
+.iconimg{
+    width: 23px;
+    border-radius: 50%;
+}
+.personname,.rank{
+    font-weight:500;
+}
+
+.Green-mon{
+    color: rgba(15, 201, 15, 0.555);
+    font-size: large;
+    font-weight: bold;
+}
+
+.collected{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.words{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/*     background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255,0,0,1));
+ */
+/* /////////////////////////// */
+
+/*===== Vertical Timeline =====*/
+
+/* Media Query */
+ @media  (max-width: 990px) and (min-width: 400px) {
+    .left-section, .right-section{
+        margin-top: 20px !important;
+        width: 100% !important;
+    }
+} 
